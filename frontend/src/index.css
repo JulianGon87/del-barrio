@@ -1,0 +1,26 @@
+body {
+  background: #fffaf0;
+}
+
+.hero {
+  min-height: 320px;
+  background: linear-gradient(135deg, #1f6f4a, #f5b82e);
+}
+
+.product-img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  width: 100%;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #dee2e6;
+}
+
+.form-card {
+  max-width: 460px;
+}
