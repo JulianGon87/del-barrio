@@ -9,7 +9,7 @@ import { ProductsProvider } from './context/ProductsContext'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter useTransitions={false}>
+    <BrowserRouter basename={import.meta.env.BASE_URL} useTransitions={false}>
       <AuthProvider>
         <ProductsProvider>
           <App />
