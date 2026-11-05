@@ -31,6 +31,7 @@ jobs:
       - run: npm run build
         env:
           BASE_PATH: /del-barrio/
+          VITE_API_URL: https://del-barrio-api.vercel.app/api
       # GitHub Pages devuelve 404.html en las rutas que no existen como archivo,
       # así que uso una copia del index.html para que /gallery funcione al recargar
       - run: cp dist/index.html dist/404.html
